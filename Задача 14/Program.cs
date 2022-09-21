@@ -1,0 +1,11 @@
+﻿Console.Clear();
+Console.WriteLine("Введите число: ");
+int a = int.Parse(Console.ReadLine());
+
+if (a % 7 == 0){
+    if (a % 23 == 0){
+        Console.WriteLine("да");
+    }
+} else{
+    Console.WriteLine("Нет");
+}
